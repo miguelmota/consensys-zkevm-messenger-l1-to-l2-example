@@ -1,4 +1,4 @@
-# ConsenSys zkEVM Messenger L1>L2 Example
+# ConsenSys zkEVM Messenger L1->L2 Example
 
 > Send a message from L1 Goerli to L2 ConsenSys zkEVM testnet.
 
@@ -6,7 +6,7 @@
 
 There's two contracts; `L2Contract.sol` and `L1Contract.sol`
 
-The L1 contract has a method `sendMessageToL2` that sends a message to L2 contract to set a greeting message on L2 contract.
+The L1 contract has a method `sendMessageToL2` that sends a message from L1 to L2 contract to set a greeting message on L2 contract.
 It sends the encoded calldata to execute `setGreeting` on L2 which can only be called if the message was sent by the L1 contract.
 
 ### Files
